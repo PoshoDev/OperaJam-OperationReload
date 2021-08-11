@@ -1,7 +1,13 @@
 function window_resize(){
     // Variables
-    g.win_w = browser_width;
-    g.win_h = browser_height;
+    if (os_browser == browser_not_a_browser) {
+        g.win_w = window_get_width();
+        g.win_h = window_get_height();
+    }
+    else {
+        g.win_w = browser_width;
+        g.win_h = browser_height;
+    }
     
     // Space
     room_width = g.win_w;

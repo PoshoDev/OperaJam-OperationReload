@@ -1,3 +1,3 @@
 #macro g    global
 
-#macro unit 64*100/g.win_h
+#macro unit g.win_w / g.win_h
