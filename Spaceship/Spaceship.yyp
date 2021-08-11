@@ -4,6 +4,7 @@
     {"id":{"name":"spr_ship","path":"sprites/spr_ship/spr_ship.yy",},"order":19,},
     {"id":{"name":"rom_main","path":"rooms/rom_main/rom_main.yy",},"order":14,},
     {"id":{"name":"obj_ship","path":"objects/obj_ship/obj_ship.yy",},"order":4,},
+    {"id":{"name":"spr_beam","path":"sprites/spr_beam/spr_beam.yy",},"order":20,},
     {"id":{"name":"Window","path":"scripts/Window/Window.yy",},"order":5,},
     {"id":{"name":"Enums","path":"scripts/Enums/Enums.yy",},"order":7,},
     {"id":{"name":"Macros","path":"scripts/Macros/Macros.yy",},"order":8,},
