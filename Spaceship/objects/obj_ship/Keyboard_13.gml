@@ -1,3 +1,2 @@
 
-show_message(unit);
-
+show_message(string(y+beam_dist));
