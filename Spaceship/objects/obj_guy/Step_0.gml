@@ -31,8 +31,8 @@ switch(mode) {
                 device.proj_target = obj_ship.x;
                 device.proj_sin = 0;
                 device.proj_st_x = device.x + irandom_range(-unit*16, unit*16);
-                device.proj_dir = sign(device.proj_st_x - x);
-                ang_target = -device.proj_dir * 45;
+                device.proj_dir = device.proj_st_x<x ? -1 : 1;
+                ang_target = device.proj_dir * 45;
             }
             
         guy_walk_anim();

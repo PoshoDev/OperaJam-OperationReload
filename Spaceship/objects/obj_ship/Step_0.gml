@@ -40,3 +40,6 @@ else {
     if (beam_frame > 0)
         beam_frame -= 0.05;
 }
+
+anim_sin += pi*2 / rspd;
+bump();

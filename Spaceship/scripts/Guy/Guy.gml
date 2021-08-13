@@ -17,4 +17,8 @@ function bump() {
         image_yscale = scale - cos(anim_sin*2) * (unit/32);
         anim_bump -= 1/rspd*3;
     }
+    if (anim_bump<=0 && anim_bump!=-1) {
+        image_yscale = scale;
+        anim_bump = -1;
+    }
 }
