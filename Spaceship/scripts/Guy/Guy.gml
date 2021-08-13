@@ -11,3 +11,10 @@ function guy_walk_anim() {
     // Animation Rotation
     image_angle = sin(anim_sin2) * 15;
 }
+
+function bump() {
+    if (anim_bump > 0) {
+        image_yscale = scale - cos(anim_sin*2) * (unit/32);
+        anim_bump -= 1/rspd*3;
+    }
+}
