@@ -23,6 +23,7 @@ switch(mode) {
             if (!angry)
                 guy_dir_change();
             else {
+                // Throwing!
                 mode = GuyMode.throwing;
                 anim_bump = 1;
                 alarm[2] = room_speed;
@@ -31,6 +32,7 @@ switch(mode) {
                 device.proj_sin = 0;
                 device.proj_st_x = device.x + irandom_range(-unit*16, unit*16);
                 device.proj_dir = sign(device.proj_st_x - x);
+                ang_target = -device.proj_dir * 45;
             }
             
         guy_walk_anim();
@@ -41,7 +43,9 @@ switch(mode) {
     break;
     
     case GuyMode.throwing:
-        
+        // Le Funny Angle
+        var ad = angle_difference(image_angle, ang_target);
+        image_angle -= min(abs(ad), 6) * sign(ad);
     break;
 }
 
