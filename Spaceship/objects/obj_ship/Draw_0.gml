@@ -34,19 +34,21 @@ if (beam_dist) {
     if (num)
         for (var i=0; i<num; i++)
             with(list[|i]) {
-                sucking = true;
-                if (!sucking_prev)
-                    alarm[0] = device_timer;
-                if (owner.mode != GuyMode.gasp)
-                    with (owner) {
-                        mode =          GuyMode.gasp;
-                        speed =         0;
-                        image_angle =   15 * dir;
-                        anim_bump =     1;
-                        anim_sin =      0;
-                        anim_sin2 =     0;
-                        alarm[1] =      device_timer*2;
-                    }
+                if (!owner.angry) {
+                    sucking = true;
+                    if (!sucking_prev)
+                        alarm[0] = device_timer;
+                    if (owner.mode != GuyMode.gasp)
+                        with (owner) {
+                            mode =          GuyMode.gasp;
+                            speed =         0;
+                            image_angle =   15 * dir;
+                            anim_bump =     1;
+                            anim_sin =      0;
+                            anim_sin2 =     0;
+                            alarm[1] =      device_timer*2;
+                        }
+                }
                 
         }
     ds_list_destroy(list);
