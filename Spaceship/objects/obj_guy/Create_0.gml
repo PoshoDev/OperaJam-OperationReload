@@ -11,6 +11,8 @@ enum GuyMode { idle, walking, stopping, gasp, throwing };
 
 g.guys++;
 
+y = room_height;
+
 guy_dir_change();
 speed = 0;
 angry = false;

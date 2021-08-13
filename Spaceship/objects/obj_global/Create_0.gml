@@ -12,5 +12,5 @@ var side = irandom_range(0, 1) ? init_left : init_right;
 
 instance_create_depth(side, room_height, -1, obj_guy);
 
-// This has to be last.
 window_resize();
+
