@@ -1,5 +1,5 @@
 
-#macro offset       (unit*96)
+#macro offset       (unit*64)
 
 #macro init_left    (-unit*64)
 #macro init_right    (room_width+unit*64)

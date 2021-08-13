@@ -1,5 +1,5 @@
 
-#macro ship_spd_max     (unit*12)
+#macro ship_spd_max     (unit*16)
 #macro ship_dist_max    (unit*80)
 #macro ship_beam_inc    (unit*12)
 #macro ship_ang_inc     4
