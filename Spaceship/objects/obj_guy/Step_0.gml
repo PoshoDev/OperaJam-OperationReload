@@ -50,7 +50,6 @@ switch(mode) {
         var ad = angle_difference(image_angle, ang_target);
         image_angle -= min(abs(ad), 6) * sign(ad);
         image_xscale = scale * dir;
-        show_debug_message(dir)
     break;
 }
 
