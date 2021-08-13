@@ -55,4 +55,5 @@ if (beam_dist) {
     ds_list_destroy(list);
 }
 
+draw_sprite_ext(spr_ship_otto, otto_index, x, y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 draw_self();

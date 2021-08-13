@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 289,
-  "bbox_right": 1763,
-  "bbox_top": 778,
-  "bbox_bottom": 1282,
+  "bbox_left": 541,
+  "bbox_right": 1567,
+  "bbox_top": 284,
+  "bbox_bottom": 1190,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bd5648a2-e985-42a1-9d62-5253c5b59948","path":"sprites/spr_ship/spr_ship.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bd5648a2-e985-42a1-9d62-5253c5b59948","path":"sprites/spr_ship/spr_ship.yy",},"LayerId":{"name":"b9636d81-3864-4a13-a439-e8c4f433b18e","path":"sprites/spr_ship/spr_ship.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_ship","path":"sprites/spr_ship/spr_ship.yy",},"resourceVersion":"1.0","name":"bd5648a2-e985-42a1-9d62-5253c5b59948","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"34aba042-d88c-40f8-adfd-3f523ac6da92","path":"sprites/spr_ship_otto/spr_ship_otto.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"34aba042-d88c-40f8-adfd-3f523ac6da92","path":"sprites/spr_ship_otto/spr_ship_otto.yy",},"LayerId":{"name":"e4dcaf68-994f-4032-8777-fa9b420d6eb7","path":"sprites/spr_ship_otto/spr_ship_otto.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_ship_otto","path":"sprites/spr_ship_otto/spr_ship_otto.yy",},"resourceVersion":"1.0","name":"34aba042-d88c-40f8-adfd-3f523ac6da92","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_ship","path":"sprites/spr_ship/spr_ship.yy",},
+    "spriteId": {"name":"spr_ship_otto","path":"sprites/spr_ship_otto/spr_ship_otto.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8d11e02e-33ab-4777-98d1-b1836d59b9fb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bd5648a2-e985-42a1-9d62-5253c5b59948","path":"sprites/spr_ship/spr_ship.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1791521a-6b55-4fea-aa7e-d9001014a64a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"34aba042-d88c-40f8-adfd-3f523ac6da92","path":"sprites/spr_ship_otto/spr_ship_otto.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 893,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_ship","path":"sprites/spr_ship/spr_ship.yy",},
+    "parent": {"name":"spr_ship_otto","path":"sprites/spr_ship_otto/spr_ship_otto.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_ship",
+    "name": "spr_ship_otto",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b9636d81-3864-4a13-a439-e8c4f433b18e","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e4dcaf68-994f-4032-8777-fa9b420d6eb7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "Spaceship.yyp",
   },
   "resourceVersion": "1.0",
-  "name": "spr_ship",
+  "name": "spr_ship_otto",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -4,6 +4,11 @@
 #macro ship_beam_inc    (unit*12)
 #macro ship_ang_inc     4
 
+enum OttoSpr { right, left, yay, suck };
+
+otto_index = 0;
+image_speed = 0;
+
 dir = 1;
 spd = 0;
 

@@ -43,3 +43,13 @@ else {
 
 anim_sin += pi*2 / rspd;
 bump();
+
+// Sprite
+if (anim_bump > 0)
+    otto_index = OttoSpr.yay;
+else if (beam_enable)
+    otto_index = OttoSpr.suck;
+else if (dir < 0)
+    otto_index = OttoSpr.left;
+else
+    otto_index = OttoSpr.right;
