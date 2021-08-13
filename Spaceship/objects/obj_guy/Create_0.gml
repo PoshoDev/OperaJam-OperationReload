@@ -1,5 +1,5 @@
 
-enum GuyMode { idle, walking, stopping };
+enum GuyMode { idle, walking, stopping, gasp, angry };
 
 offset = unit*32;
 guy_dir_change();
