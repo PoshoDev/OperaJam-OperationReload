@@ -18,7 +18,7 @@ switch(mode) {
     
     case GuyMode.stopping:
         if (speed > 0)
-            speed -= guy_spd_inc;
+            speed -= guy_spd_inc * angry_plus;
         else
             if (!angry)
                 guy_dir_change();
@@ -33,6 +33,7 @@ switch(mode) {
                 device.proj_st_x = device.x + irandom_range(-unit*16, unit*16);
                 device.proj_dir = device.proj_st_x<x ? -1 : 1;
                 ang_target = device.proj_dir * 45;
+                throwables--;
             }
             
         guy_walk_anim();

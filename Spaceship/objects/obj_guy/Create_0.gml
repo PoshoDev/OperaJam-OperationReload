@@ -1,5 +1,11 @@
 
-#macro offset   (unit*96)
+#macro offset       (unit*96)
+
+#macro init_left    (-unit*64)
+#macro init_right    (room_width+unit*64)
+
+#macro guy_spd_inc      (unit/32)
+#macro guy_spd_max      (unit*2)
 
 enum GuyMode { idle, walking, stopping, gasp, throwing };
 
