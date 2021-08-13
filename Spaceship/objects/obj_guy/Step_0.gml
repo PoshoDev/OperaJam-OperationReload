@@ -28,3 +28,4 @@ image_yscale = scale + sin(anim_sin) * (unit/256) * speed;
 // Animation Rotation
 anim_sin2 += (pi/rspd) * ((speed*100)/(guy_spd_max*100));
 image_angle = sin(anim_sin2) * 15;
+

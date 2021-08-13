@@ -11,17 +11,7 @@ function window_resize(){
     // Objects
     rescale(obj_ship, 12);
     rescale(obj_guy, 12);
-    if (instance_exists(obj_ship))
-        with (obj_ship) {
-            image_xscale = unit/12;
-            image_yscale = unit/12;
-        }
-        
-    if (instance_exists(obj_guy))
-        with (obj_guy) {
-            image_xscale = unit/12;
-            image_yscale = unit/12;
-        }
+    rescale(obj_device, 12);
 }
 
 function window_check_resize(){

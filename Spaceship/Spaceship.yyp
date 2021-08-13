@@ -12,6 +12,7 @@
     {"id":{"name":"spr_phone_test","path":"sprites/spr_phone_test/spr_phone_test.yy",},"order":23,},
     {"id":{"name":"obj_guy","path":"objects/obj_guy/obj_guy.yy",},"order":10,},
     {"id":{"name":"Guy","path":"scripts/Guy/Guy.yy",},"order":13,},
+    {"id":{"name":"obj_device","path":"objects/obj_device/obj_device.yy",},"order":14,},
   ],
   "Options": [
     {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},
