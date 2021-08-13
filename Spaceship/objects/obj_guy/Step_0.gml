@@ -10,6 +10,8 @@ switch(mode) {
             move_towards_point(target, room_height, speed);
         else
             mode = GuyMode.stopping;
+            
+        guy_walk_anim();
     break;
     
     case GuyMode.stopping:
@@ -17,18 +19,20 @@ switch(mode) {
             speed -= guy_spd_inc;
         else
             guy_dir_change();
+            
+        guy_walk_anim();
     break;
     
     case GuyMode.gasp:
-        x += sin(anim_sin*4)*unit;
+        x += sin(anim_sin*4)*unit*2;
+        if (anim_bump > 0) {
+            image_yscale = scale - cos(anim_sin*2) * (unit/32);
+            anim_bump -= 1/rspd*3;
+        }
+            
     break;
 }
 
-// Animation Bumpitty
+
 anim_sin += pi*2 / rspd;
-image_yscale = scale + sin(anim_sin) * (unit/256) * speed;
-
-// Animation Rotation
 anim_sin2 += (pi/rspd) * ((speed*100)/(guy_spd_max*100));
-image_angle = sin(anim_sin2) * 15;
-

@@ -35,9 +35,15 @@ if (beam_dist) {
         for (var i=0; i<num; i++)
             with(list[|i]) {
             sucking = true;
-            owner.mode = GuyMode.gasp;
-            owner.speed = 0;
-            owner.image_angle = 15*owner.dir;
+            if (owner.mode != GuyMode.gasp)
+                with (owner) {
+                    mode =          GuyMode.gasp;
+                    speed =         0;
+                    image_angle =   15 * dir;
+                    anim_bump =     1;
+                    anim_sin =      0;
+                    anim_sin2 =     0;
+                }
         }
     ds_list_destroy(list);
 }
