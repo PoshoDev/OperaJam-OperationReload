@@ -41,6 +41,7 @@ if (beam_dist) {
                     if (owner.mode != GuyMode.gasp)
                         with (owner) {
                             mode =          GuyMode.gasp;
+                            image_index =   GuySpr.gasp;
                             speed =         0;
                             image_angle =   15 * dir;
                             anim_bump =     1;

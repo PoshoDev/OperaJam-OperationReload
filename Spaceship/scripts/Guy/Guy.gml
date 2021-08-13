@@ -1,7 +1,16 @@
+function guy_set_sprite() {
+    return choose(  spr_citizen_a_1,
+                    spr_citizen_b_1,
+                    spr_citizen_c_1,
+                    spr_citizen_d_1
+    );
+}
+
 function guy_dir_change() {
     mode = GuyMode.walking;
     target = irandom_range(offset, room_width-offset);
     dir = target < x ? -1 : 1;
+    
 }
 
 function guy_walk_anim() {

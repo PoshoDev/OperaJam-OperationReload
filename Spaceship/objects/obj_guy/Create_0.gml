@@ -7,7 +7,8 @@
 #macro guy_spd_inc      (unit/32)
 #macro guy_spd_max      (unit*2)
 
-enum GuyMode { idle, walking, stopping, gasp, throwing };
+enum GuyMode    { idle, walking, stopping, gasp, throwing };
+enum GuySpr     { normal, gasp, angry };
 
 g.guys++;
 
@@ -27,3 +28,6 @@ device.owner = self;
 rescale(device, 12);
 
 throwables = 1;
+
+sprite_index = guy_set_sprite();
+image_speed = 0;

@@ -1,5 +1,5 @@
 
-if (projectile) {
+if ((y>room_height) && projectile && !owner.throwables) {
     with (owner) {
         mode = GuyMode.walking;
         if (x < room_width/2)

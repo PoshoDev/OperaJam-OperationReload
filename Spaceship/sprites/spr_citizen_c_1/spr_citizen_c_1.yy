@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 750,
-  "bbox_right": 1274,
-  "bbox_top": 618,
-  "bbox_bottom": 1451,
+  "bbox_left": 769,
+  "bbox_right": 1284,
+  "bbox_top": 602,
+  "bbox_bottom": 1455,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"92806d27-5a2a-4145-9fe4-51054b87ae92","path":"sprites/spr_guy_test/spr_guy_test.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"92806d27-5a2a-4145-9fe4-51054b87ae92","path":"sprites/spr_guy_test/spr_guy_test.yy",},"LayerId":{"name":"b830132c-8569-4dff-bd5b-6bfd00353b2a","path":"sprites/spr_guy_test/spr_guy_test.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_guy_test","path":"sprites/spr_guy_test/spr_guy_test.yy",},"resourceVersion":"1.0","name":"92806d27-5a2a-4145-9fe4-51054b87ae92","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1f0df7b5-53a8-419c-9a41-779c701480dc","path":"sprites/spr_citizen_c_1/spr_citizen_c_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1f0df7b5-53a8-419c-9a41-779c701480dc","path":"sprites/spr_citizen_c_1/spr_citizen_c_1.yy",},"LayerId":{"name":"e809ad2a-fa87-4d3a-90a1-1ae131b9f9d6","path":"sprites/spr_citizen_c_1/spr_citizen_c_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_citizen_c_1","path":"sprites/spr_citizen_c_1/spr_citizen_c_1.yy",},"resourceVersion":"1.0","name":"1f0df7b5-53a8-419c-9a41-779c701480dc","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_guy_test","path":"sprites/spr_guy_test/spr_guy_test.yy",},
+    "spriteId": {"name":"spr_citizen_c_1","path":"sprites/spr_citizen_c_1/spr_citizen_c_1.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"63785c6a-e77b-45cb-ba8b-9487767c5f3e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"92806d27-5a2a-4145-9fe4-51054b87ae92","path":"sprites/spr_guy_test/spr_guy_test.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a516115e-a352-46b7-bc03-145155bd3247","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1f0df7b5-53a8-419c-9a41-779c701480dc","path":"sprites/spr_citizen_c_1/spr_citizen_c_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 1450,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_guy_test","path":"sprites/spr_guy_test/spr_guy_test.yy",},
+    "parent": {"name":"spr_citizen_c_1","path":"sprites/spr_citizen_c_1/spr_citizen_c_1.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_guy_test",
+    "name": "spr_citizen_c_1",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b830132c-8569-4dff-bd5b-6bfd00353b2a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e809ad2a-fa87-4d3a-90a1-1ae131b9f9d6","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "Spaceship.yyp",
   },
   "resourceVersion": "1.0",
-  "name": "spr_guy_test",
+  "name": "spr_citizen_c_1",
   "tags": [],
   "resourceType": "GMSprite",
 }

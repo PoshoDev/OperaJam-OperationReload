@@ -1,4 +1,6 @@
 
+randomize();
+
 window_size_update();
 
 draw_enable_swf_aa(true);

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_wifi_temp",
-    "path": "sprites/spr_wifi_temp/spr_wifi_temp.yy",
+    "name": "spr_wifi",
+    "path": "sprites/spr_wifi/spr_wifi.yy",
   },
   "solid": false,
   "visible": true,
