@@ -3,5 +3,6 @@
 
 hp = 5;
 alarm[0] = -1;
+projectile = false;
 sucking = false;
 sucking_prev = false;

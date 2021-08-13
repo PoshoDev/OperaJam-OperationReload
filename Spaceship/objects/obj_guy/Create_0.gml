@@ -1,9 +1,10 @@
 
+#macro offset   (unit*96)
+
 enum GuyMode { idle, walking, stopping, gasp, throwing };
 
 g.guys++;
 
-offset = unit*32;
 guy_dir_change();
 speed = 0;
 angry = false;
