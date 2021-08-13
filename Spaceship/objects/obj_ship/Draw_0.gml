@@ -35,6 +35,8 @@ if (beam_dist) {
         for (var i=0; i<num; i++)
             with(list[|i]) {
             sucking = true;
+            if (!sucking_prev)
+                alarm[0] = device_timer;
             if (owner.mode != GuyMode.gasp)
                 with (owner) {
                     mode =          GuyMode.gasp;
@@ -43,7 +45,6 @@ if (beam_dist) {
                     anim_bump =     1;
                     anim_sin =      0;
                     anim_sin2 =     0;
-                    device.alarm[0] = device_timer;
                 }
         }
     ds_list_destroy(list);

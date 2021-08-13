@@ -4,3 +4,4 @@
 hp = 5;
 alarm[0] = -1;
 sucking = false;
+sucking_prev = false;

@@ -13,3 +13,6 @@ else {
     x = owner.x + (unit*32*owner.dir)
     y = owner.y - (unit*32);
 }
+
+sucking_prev = sucking;
+
