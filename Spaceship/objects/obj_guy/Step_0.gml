@@ -20,13 +20,14 @@ switch(mode) {
             target = irandom_range(offset, room_width-offset);
             mode = GuyMode.walking;
         }
-    
     break;
 }
 
-// Animations' Bumpitty
-anim_sin += pi*2 / 30;
-if (anim_sin >= (pi*2))
-    anim_sin = 0;
-image_yscale = scale + sin(anim_sin) * unit/256 * speed;
+// Animation Bumpitty
+anim_sin += pi*2 / rspd;
+image_yscale = scale + sin(anim_sin) * (unit/256) * speed;
+
+// Animation Rotation
+anim_sin2 += (pi/rspd) * ((speed*100)/(guy_spd_max*100));
+image_angle = sin(anim_sin2) * 15;
         

@@ -2,7 +2,7 @@
 // The Beam!
 if (beam_dist) {
     // Sin
-    beam_sin += (pi*2) / 30;
+    beam_sin += (pi*2) / rspd;
     if (beam_sin >= (pi*2))
         beam_sin = 0;
     var plus = sin(beam_sin) * unit * 2;
