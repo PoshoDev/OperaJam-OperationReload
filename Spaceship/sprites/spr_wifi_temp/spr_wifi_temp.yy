@@ -1,5 +1,5 @@
 {
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "type": 1,
   "origin": 9,
@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 263,
-  "bbox_right": 767,
-  "bbox_top": 799,
-  "bbox_bottom": 1229,
+  "bbox_left": 357,
+  "bbox_right": 723,
+  "bbox_top": 938,
+  "bbox_bottom": 1198,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2c8b6b8b-d29c-4e62-95a5-0f89377a1820","path":"sprites/spr_phone_test/spr_phone_test.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2c8b6b8b-d29c-4e62-95a5-0f89377a1820","path":"sprites/spr_phone_test/spr_phone_test.yy",},"LayerId":{"name":"8e68883c-bf5d-4eba-9675-e28ceb8d1948","path":"sprites/spr_phone_test/spr_phone_test.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_phone_test","path":"sprites/spr_phone_test/spr_phone_test.yy",},"resourceVersion":"1.0","name":"2c8b6b8b-d29c-4e62-95a5-0f89377a1820","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d0b4e8f9-4604-4f06-b923-be40cb426743","path":"sprites/spr_wifi_temp/spr_wifi_temp.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d0b4e8f9-4604-4f06-b923-be40cb426743","path":"sprites/spr_wifi_temp/spr_wifi_temp.yy",},"LayerId":{"name":"f75a4b65-1b77-4aa0-a9c3-f27aec626d2a","path":"sprites/spr_wifi_temp/spr_wifi_temp.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_wifi_temp","path":"sprites/spr_wifi_temp/spr_wifi_temp.yy",},"resourceVersion":"1.0","name":"d0b4e8f9-4604-4f06-b923-be40cb426743","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_phone_test","path":"sprites/spr_phone_test/spr_phone_test.yy",},
+    "spriteId": {"name":"spr_wifi_temp","path":"sprites/spr_wifi_temp/spr_wifi_temp.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"9be17ff4-8dd5-4258-a515-7aac4a34b29e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2c8b6b8b-d29c-4e62-95a5-0f89377a1820","path":"sprites/spr_phone_test/spr_phone_test.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b806df7d-dbb7-45b5-bc50-dbc6d34c198a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d0b4e8f9-4604-4f06-b923-be40cb426743","path":"sprites/spr_wifi_temp/spr_wifi_temp.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,18 +54,18 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 527,
-    "yorigin": 1037,
+    "xorigin": 550,
+    "yorigin": 1077,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_phone_test","path":"sprites/spr_phone_test/spr_phone_test.yy",},
+    "parent": {"name":"spr_wifi_temp","path":"sprites/spr_wifi_temp/spr_wifi_temp.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_phone_test",
+    "name": "spr_wifi_temp",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8e68883c-bf5d-4eba-9675-e28ceb8d1948","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f75a4b65-1b77-4aa0-a9c3-f27aec626d2a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "Spaceship.yyp",
   },
   "resourceVersion": "1.0",
-  "name": "spr_phone_test",
+  "name": "spr_wifi_temp",
   "tags": [],
   "resourceType": "GMSprite",
 }

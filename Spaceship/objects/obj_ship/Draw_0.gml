@@ -43,6 +43,7 @@ if (beam_dist) {
                     anim_bump =     1;
                     anim_sin =      0;
                     anim_sin2 =     0;
+                    device.alarm[0] = device_timer;
                 }
         }
     ds_list_destroy(list);
