@@ -1,10 +1,12 @@
 
 if (!projectile) {
     if (sucking) {
+        image_blend = c_lime;
         image_yscale = scale + (sin(owner.anim_sin)*(unit/256))*6;
         image_xscale = (scale*(-owner.dir)) + (owner.dir*sin(owner.anim_sin)*(unit/256))*6;
     }
     else {
+        image_blend = c_white;
         alarm[0] = -1;
         image_angle = sin(owner.anim_sin2) * 8;
         x = owner.x + (unit*32*owner.dir)

@@ -19,6 +19,10 @@ function guy_walk_anim() {
     
     // Animation Rotation
     image_angle = sin(anim_sin2) * 15;
+    
+    // Overall Direction
+    if (mode == GuyMode.walking)
+        image_xscale = scale * -dir;
 }
 
 function bump() {

@@ -1,8 +1,8 @@
 
 #macro offset       (unit*64)
 
-#macro init_left    (-unit*64)
-#macro init_right    (room_width+unit*64)
+#macro init_left    (-unit*96)
+#macro init_right    (room_width+unit*96)
 
 #macro guy_spd_inc      (unit/32)
 #macro guy_spd_max      (unit*2)
