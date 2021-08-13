@@ -5,7 +5,7 @@ if (beam_dist) {
     beam_sin += (pi*2) / rspd;
     if (beam_sin >= (pi*2))
         beam_sin = 0;
-    var plus = sin(beam_sin) * unit * 2;
+    var plus = sin(beam_sin) * unit * 4;
     
     // General Length
     var len = unit*28;
@@ -16,14 +16,14 @@ if (beam_dist) {
         minus = -lerp(len+plus, 0, beam_frame);
         
     // Rectangle Vars
-    var x1 = x-len-plus-minus;
+    var x1 = x-len-plus;
     var y1 = y+len;
-    var x2 = x+len+plus+minus;
+    var x2 = x+len+plus;
     var y2 = y+len+beam_dist;
     
     // Actual Drawing
     draw_set_color(c_green)
-    draw_rectangle(x1, y1, x2, y2, false);
+    draw_rectangle(x1-minus, y1, x2+minus, y2, false);
     draw_set_color(c_white)
     
     // Collision?

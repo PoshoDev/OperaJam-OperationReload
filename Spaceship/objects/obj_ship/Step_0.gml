@@ -1,7 +1,7 @@
 
 var dist = point_distance(x, y, mouse_x, mouse_y);
-if (dist > unit*80)
-    spd = unit*10;
+if (dist > ship_dist_max)
+    spd = ship_spd_max;
 else
     spd = dist/8;
     
@@ -11,6 +11,12 @@ if (beam_enable)
 var ang = point_direction(x, y, mouse_x, mouse_y);
 x += lengthdir_x(spd, ang);
 y += lengthdir_y(spd, ang);
+
+dir = mouse_x<x ? -1 : 1;
+
+var ang_target = -dir * 45 * (spd/ship_spd_max);
+var ad = angle_difference(image_angle, ang_target);
+image_angle -= min(abs(ad), 6) * sign(ad);
 
 
 // Beam
