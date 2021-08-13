@@ -13,11 +13,14 @@ switch(mode) {
     break;
     
     case GuyMode.stopping:
-        if (speed > 0) {
+        if (speed > 0)
             speed -= guy_spd_inc;
-        }
         else
             guy_dir_change();
+    break;
+    
+    case GuyMode.gasp:
+        x += sin(anim_sin*4)*unit;
     break;
 }
 
