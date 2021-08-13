@@ -45,7 +45,7 @@ anim_sin += pi*2 / rspd;
 bump();
 
 // Sprite
-if (anim_bump > 0)
+if (alarm[2]>0 || anim_bump>0)
     otto_index = OttoSpr.yay;
 else if (beam_enable)
     otto_index = OttoSpr.suck;

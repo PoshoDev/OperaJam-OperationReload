@@ -50,7 +50,6 @@ if (beam_dist) {
                             alarm[1] =      device_timer*2;
                         }
                 }
-                
         }
     ds_list_destroy(list);
 }
