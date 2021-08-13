@@ -14,6 +14,7 @@ y += lengthdir_y(spd, ang);
 
 dir = mouse_x<x ? -1 : 1;
 
+// Le Funny Angle
 var ang_target = -dir * 45 * (spd/ship_spd_max);
 var ad = angle_difference(image_angle, ang_target);
 image_angle -= min(abs(ad), 6) * sign(ad);

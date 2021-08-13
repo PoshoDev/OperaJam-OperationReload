@@ -1,6 +1,8 @@
 
 enum GuyMode { idle, walking, stopping, gasp, angry };
 
+g.guys++;
+
 offset = unit*32;
 guy_dir_change();
 speed = 0;
