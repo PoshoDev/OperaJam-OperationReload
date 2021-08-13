@@ -13,7 +13,7 @@ if (beam_dist) {
     // When Closing
     var minus = 0;
     if (!beam_enable)
-        minus = -lerp(len+plus, 0, beam_frame)
+        minus = -lerp(len+plus, 0, beam_frame);
     
     // Actual Drawing
     draw_set_color(c_green)

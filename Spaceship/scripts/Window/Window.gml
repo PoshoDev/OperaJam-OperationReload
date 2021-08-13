@@ -43,8 +43,9 @@ function window_size_update(){
 function rescale(obj, amount){
     if (instance_exists(obj))
         with (obj) {
-            image_xscale = unit/amount;
-            image_yscale = unit/amount;
+            scale = unit/amount;
+            image_xscale = scale;
+            image_yscale = scale;
         }
 }
 
