@@ -16,10 +16,8 @@ switch(mode) {
         if (speed > 0) {
             speed -= guy_spd_inc;
         }
-        else {
-            target = irandom_range(offset, room_width-offset);
-            mode = GuyMode.walking;
-        }
+        else
+            guy_dir_change();
     break;
 }
 
@@ -30,4 +28,3 @@ image_yscale = scale + sin(anim_sin) * (unit/256) * speed;
 // Animation Rotation
 anim_sin2 += (pi/rspd) * ((speed*100)/(guy_spd_max*100));
 image_angle = sin(anim_sin2) * 15;
-        
