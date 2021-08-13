@@ -16,8 +16,8 @@ y += lengthdir_y(spd, ang);
 // Beam
 beam_enable = mouse_check_button(mb_left);
 
-if (beam_enable){
-    beam_dist += unit*4;
+if (beam_enable) {
+    beam_dist += ship_beam_inc;
     if ((y+beam_dist) > g.win_h)
         beam_dist = g.win_h - y;
         
@@ -26,7 +26,7 @@ if (beam_enable){
 }
 else {
     if (beam_dist > 0)
-        beam_dist -= unit*16;
+        beam_dist -= ship_beam_inc*2;
     if (beam_dist < 0)
         beam_dist = 0;
         

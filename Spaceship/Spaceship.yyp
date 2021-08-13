@@ -6,8 +6,10 @@
     {"id":{"name":"obj_ship","path":"objects/obj_ship/obj_ship.yy",},"order":4,},
     {"id":{"name":"spr_beam","path":"sprites/spr_beam/spr_beam.yy",},"order":20,},
     {"id":{"name":"Window","path":"scripts/Window/Window.yy",},"order":5,},
+    {"id":{"name":"spr_guy_test","path":"sprites/spr_guy_test/spr_guy_test.yy",},"order":22,},
     {"id":{"name":"Enums","path":"scripts/Enums/Enums.yy",},"order":7,},
     {"id":{"name":"Macros","path":"scripts/Macros/Macros.yy",},"order":8,},
+    {"id":{"name":"obj_guy","path":"objects/obj_guy/obj_guy.yy",},"order":10,},
   ],
   "Options": [
     {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},
