@@ -32,8 +32,11 @@ if (beam_dist) {
     var list = ds_list_create();
     var num = collision_rectangle_list(x1, y1, x2, y2, obj_device, false, false, list, false);
     if (num)
-        for (var i=0; i<num; i++)
+        for (var i=0; i<num; i++) {
             list[|i].sucking = true;
+            list[|i].owner.mode = GuyMode.gasp;
+            list[|i].owner.speed = 0;
+        }
     ds_list_destroy(list);
 }
 
