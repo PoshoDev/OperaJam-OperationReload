@@ -18,7 +18,7 @@ if (alive) {
             
         // Rectangle Vars
         var x1 = x-len-plus;
-        var y1 = y+len;
+        var y1 = y;
         var x2 = x+len+plus;
         var y2 = y+len+beam_dist;
         
@@ -42,6 +42,7 @@ if (alive) {
                         if (owner.mode != GuyMode.gasp)
                             with (owner) {
                                 mode =          GuyMode.gasp;
+                                play3(snd_gasp_1, snd_gasp_2, snd_gasp_3);
                                 image_index =   GuySpr.gasp;
                                 speed =         0;
                                 image_angle =   15 * dir;

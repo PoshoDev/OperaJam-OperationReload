@@ -50,6 +50,7 @@
     {"id":{"name":"obj_device","path":"objects/obj_device/obj_device.yy",},"order":14,},
     {"id":{"name":"obj_wifi","path":"objects/obj_wifi/obj_wifi.yy",},"order":16,},
     {"id":{"name":"Device","path":"scripts/Device/Device.yy",},"order":27,},
+    {"id":{"name":"Sound","path":"scripts/Sound/Sound.yy",},"order":52,},
   ],
   "Options": [
     {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},

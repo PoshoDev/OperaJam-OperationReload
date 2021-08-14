@@ -36,6 +36,7 @@ switch(mode) {
                 ang_target = device.proj_dir * 45;
                 dir = device.proj_dir;
                 image_xscale = scale * -dir;
+                play3(snd_throw_1, snd_throw_2, snd_throw_3);
             }
             
         guy_walk_anim();

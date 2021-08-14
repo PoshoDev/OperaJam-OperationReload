@@ -22,7 +22,13 @@ if (alive) {
     
     
     // Beam
+    beam_prev = beam_enable;
     beam_enable = mouse_check_button(mb_left);
+    
+    if (!beam_prev && beam_enable)
+        audio_play_sound(snd_beam, irandom_range(1, 999), true);
+    else if (beam_prev && !beam_enable)
+        audio_stop_sound(snd_beam);
     
     if (beam_enable) {
         beam_dist += ship_beam_inc;
@@ -57,5 +63,6 @@ if (alive) {
 }
 else {
     image_angle += 16;
-    move_towards_point(x, room_height*2, unit*16)
+    move_towards_point(x, room_height*2, unit*16);
+    audio_stop_sound(snd_beam);
 }

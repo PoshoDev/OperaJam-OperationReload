@@ -1,6 +1,7 @@
 
 if (device.hp <= 0) {
     angry = true;
+    play3(snd_angry_1, snd_angry_2, snd_angry_3);
     image_index = GuySpr.angry;
     do {
         guy_dir_change();
