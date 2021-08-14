@@ -13,6 +13,7 @@ function window_resize(){
     rescale(obj_guy, 12);
     rescale(obj_device, 12);
     rescale(obj_wifi, 12);
+    rescale(obj_background, 4);
 }
 
 function window_check_resize(){

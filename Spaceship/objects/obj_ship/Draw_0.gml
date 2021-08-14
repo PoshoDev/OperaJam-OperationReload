@@ -23,9 +23,11 @@ if (alive) {
         var y2 = y+len+beam_dist;
         
         // Actual Drawing
-        draw_set_color(c_green)
+        draw_set_color(c_green);
+        draw_set_alpha(0.9);
         draw_rectangle(x1-minus, y1, x2+minus, y2, false);
-        draw_set_color(c_white)
+        draw_set_color(c_white);
+        draw_set_alpha(1);
         
         // Collision?
         with (obj_device)
