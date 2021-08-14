@@ -13,3 +13,7 @@ draw_set_halign(fa_right);
 draw_set_font(fnt_score);
 draw_text(room_width-unit*16, room_height-unit*16, "Click anywhere to play!")
 
+draw_set_halign(fa_left);
+draw_set_font(fnt_score);
+draw_text(unit*16, room_height-unit*16, "@PoshoDev")
+

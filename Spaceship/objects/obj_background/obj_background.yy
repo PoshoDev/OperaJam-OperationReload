@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "City",
-    "path": "sprites/City/City.yy",
+    "name": "",
+    "path": "",
   },
   "solid": false,
   "visible": true,
