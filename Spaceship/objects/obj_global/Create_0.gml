@@ -16,3 +16,5 @@ instance_create_depth(side, room_height, -1, obj_guy);
 
 window_resize();
 
+gameover = false;
+

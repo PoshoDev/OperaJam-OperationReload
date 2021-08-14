@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"fnt_score","path":"fonts/fnt_score/fnt_score.yy",},"order":39,},
     {"id":{"name":"obj_global","path":"objects/obj_global/obj_global.yy",},"order":16,},
     {"id":{"name":"spr_citizen_a_1","path":"sprites/spr_citizen_a_1/spr_citizen_a_1.yy",},"order":25,},
     {"id":{"name":"spr_device_a_2","path":"sprites/spr_device_a_2/spr_device_a_2.yy",},"order":30,},

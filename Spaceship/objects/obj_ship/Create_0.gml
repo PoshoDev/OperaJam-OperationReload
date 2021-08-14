@@ -20,3 +20,5 @@ beam_frame = 0;
 
 anim_sin = 0;
 anim_bump = 0;
+
+alive = true;
