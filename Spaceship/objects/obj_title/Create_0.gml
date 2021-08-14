@@ -19,3 +19,5 @@ image_yscale = scale;
 
 x = room_width*(2/5);
 y = room_height*(4/6);
+
+g.tutorial = true;

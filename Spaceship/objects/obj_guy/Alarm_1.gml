@@ -8,6 +8,7 @@ if (device.hp <= 0) {
     }
     until (distance_to_point(target, y) > room_width/4)
     anim_bump = 1;
+    g.tutorial = false;
 }
 else if (device.sucking)
     alarm[1] = device_timer*2;

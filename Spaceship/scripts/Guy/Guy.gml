@@ -1,8 +1,8 @@
 function guy_set_sprite() {
-    return choose(  spr_citizen_a_1,
-                    spr_citizen_b_1,
-                    spr_citizen_c_1,
-                    spr_citizen_d_1
+    return choose(  spr_citizen_a_1, spr_citizen_a_2, spr_citizen_a_3,
+                    spr_citizen_b_1, spr_citizen_b_2, spr_citizen_b_3,
+                    spr_citizen_c_1, spr_citizen_c_2, spr_citizen_c_3,
+                    spr_citizen_d_1, spr_citizen_d_2, spr_citizen_d_3
     );
 }
 
